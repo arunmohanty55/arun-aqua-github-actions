@@ -4,5 +4,5 @@ services:
     web:
         image: ${DOCKERHUB_USER}/arun:latest
         ports:
-          - "80:80"
+          - "80:5000"
 
